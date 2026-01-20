@@ -1,18 +1,21 @@
-cffi==1.14.2
-click==7.1.2
-cryptography==41.0.3
-dnspython==2.0.0
-Flask==2.3.3
-future==0.18.2
-#impacket==0.9.21 https://github.com/SecureAuthCorp/impacket/commit/b867b21
-itsdangerous==1.1.0
-Jinja2==3.1.6
-ldap3==2.8
-ldapdomaindump==0.9.3
-MarkupSafe==1.1.1
-pyasn1==0.4.8
-pycparser==2.20
-pycryptodomex==3.9.8
-pyOpenSSL==19.1.0
-six==1.15.0
-Werkzeug==3.0.3
+# Zerologon Requirements - Patched for Security
+# Updated: 2026-01-20
+
+cffi>=1.15.0
+click>=8.0.0
+cryptography>=43.0.1
+dnspython>=2.4.0
+Flask>=2.3.3
+future>=0.18.3
+#impacket - install separately from git
+itsdangerous>=2.1.0
+Jinja2>=3.1.6
+ldap3>=2.9.0
+ldapdomaindump>=0.9.4
+MarkupSafe>=2.1.0
+pyasn1>=0.6.2
+pycparser>=2.21
+pycryptodomex>=3.20.0
+pyOpenSSL>=24.0.0
+six>=1.16.0
+Werkzeug>=3.0.6
